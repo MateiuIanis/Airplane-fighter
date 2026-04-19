@@ -1,3 +1,44 @@
 body {
     background-image: url("Images/space_background.jpg");
 }
+
+#airplane {
+    width: 125px;
+    height: 125px;
+    margin-top: 1%;
+    margin-left: 48%;
+}
+
+#asteroid {
+    width: 125px;
+    height: 125px;
+}
+
+#gameInfoTable {
+    margin-top: 200px;
+    margin-left: 75%;
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+
+#gameInfoTable td {
+    font-size: xx-large;
+    padding: 20px;
+    
+}
+
+#gameInfoTable td.infoCell {
+    border-radius: 30px;
+    background-color: skyblue;
+}
+
+#gameInfoTable td.startPauseCell {
+    text-align: center;
+}
+
+#startPauseButton {
+    background-color: green !important;
+    border: green !important;
+    height: 70px;
+    width: 200px;   
+}
